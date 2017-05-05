@@ -1,4 +1,19 @@
-    $(document).ready(function() {
-    $("#target1").css("color", "red");
+$(document).ready(function() {
+   $('div').mouseenter(function() {
+       $(this).animate({
+           height: '+=10px'
+       });
+   });
+   $('div').mouseleave(function() {
+       $(this).animate({
+           height: '-=10px'
+       });
+   });
+   $('div').click(function() {
+       $(this).toggle(1000);
+   });
+});
 
-  });
+$(document).ready(function() {
+    $("div").fadeOut(1000);
+});

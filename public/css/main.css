@@ -1,0 +1,28 @@
+div {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
+
+#chartreuse {
+  height:100px;
+  width:100px;
+  background-color:chartreuse;
+  border-radius:5px;
+}
