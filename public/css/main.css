@@ -1,28 +1,15 @@
 div {
     height:100px;
     width:100px;
-    display: inline-block;
-}
-
-#red {
-    background-color:#FF0000;
-}
-
-#blue {
-    background-color:#0000FF;
-}
-
-#yellow {
-    background-color:#E2BE22;
+    background-color:red;
+    border-radius:5px;
+    margin-bottom:5px;
 }
 
 #green {
-    background-color:#008800;
+    background-color:chartreuse;
 }
 
-#chartreuse {
-  height:100px;
-  width:100px;
-  background-color:chartreuse;
-  border-radius:5px;
+#yellow {
+  background-color:yellow;
 }
